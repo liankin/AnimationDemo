@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_add_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="addBtns" />
+
+    <CheckBox
+        android:id="@+id/check_box_appear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="APPEARING" />
+
+    <CheckBox
+        android:id="@+id/check_box_change_appear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="CHANGE_APPEARING" />
+
+    <CheckBox
+        android:id="@+id/check_box_disappear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="DISAPPEARING" />
+
+    <CheckBox
+        android:id="@+id/check_box_change_disappear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="CHANGE_DISAPPEARING " />
+
+    <CheckBox
+        android:id="@+id/check_box_scaleX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="scaleX " />
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:columnCount="4"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.lotus.animationdemo.ActPropertyAnimation">
+
+    <TextView
+        android:id="@+id/tv_object_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ObjectAnimator"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_value_anim"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ValueAnimator"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_animator_set"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimatorSet"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_use_xml"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用xml实现属性动画"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_view_animator"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewAnimate"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_layout_transition"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LayoutTransition"
+        android:textSize="30sp" />
+</LinearLayout>
