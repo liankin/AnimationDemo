@@ -56,6 +56,7 @@ public class ActMenuPop extends AppCompatActivity {
     private void openMenuAnim(){
         ObjectAnimator animator0 = ObjectAnimator.ofFloat(imageViewList.get(0),
                 "alpha",1f,0.5f);
+        //以自己为起点，向左偏移230f的距离；所以复位时，则只需设置为0f即可
         ObjectAnimator animator1 = ObjectAnimator.ofFloat(imageViewList.get(1),
                 "translationX",-230f);
         ObjectAnimator animator2 = ObjectAnimator.ofFloat(imageViewList.get(2),

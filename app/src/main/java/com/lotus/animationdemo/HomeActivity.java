@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.lotus.animationdemo.comprehensive.ActMenuPop;
 import com.lotus.animationdemo.comprehensive.animpath.ActAnimPath;
+import com.lotus.animationdemo.comprehensive.hiddenopenanim.ActDropView;
 import com.lotus.animationdemo.comprehensive.hiddenopenanim.ActRotateValueAnim;
 import com.lotus.animationdemo.comprehensive.launcherview.ActLauncher;
 
@@ -32,6 +33,8 @@ public class HomeActivity extends AppCompatActivity {
     TextView tvAnimPath;
     @BindView(R.id.tv_menu_pop)
     TextView tvMenuPop;
+    @BindView(R.id.tv_drop_view)
+    TextView tvDropView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +45,7 @@ public class HomeActivity extends AppCompatActivity {
 
     @OnClick({R.id.tv_tweened_anim, R.id.tv_frame_anim, R.id.tv_property_anim,
             R.id.tv_hidden_anim, R.id.tv_anim_path, R.id.tv_luncher_anim,
-            R.id.tv_menu_pop})
+            R.id.tv_menu_pop, R.id.tv_drop_view})
     public void onViewClicked(View view) {
         Intent intent = null;
         switch (view.getId()) {
@@ -72,6 +75,10 @@ public class HomeActivity extends AppCompatActivity {
                 break;
             case R.id.tv_menu_pop:
                 intent = new Intent(HomeActivity.this, ActMenuPop.class);
+                startActivity(intent);
+                break;
+            case R.id.tv_drop_view:
+                intent = new Intent(HomeActivity.this, ActDropView.class);
                 startActivity(intent);
                 break;
         }

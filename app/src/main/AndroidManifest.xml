@@ -29,6 +29,7 @@
         <activity android:name=".comprehensive.launcherview.ActLauncher"/>
         <activity android:name=".comprehensive.animpath.ActAnimPath"/>
         <activity android:name=".comprehensive.ActMenuPop"/>
+        <activity android:name=".comprehensive.hiddenopenanim.ActDropView"/>
     </application>
 
 </manifest>
